@@ -1,0 +1,32 @@
+# SCFBuild configuration file for Reinebow SVGinOT
+output_file: build/Reinebow-SVGinOT.ttf
+verbose: True
+glyph_svg_dir: svg
+color_svg_dir: svg
+# Translate the B&W SVGs on import into glyphs.
+glyph_translate_x: 0
+glyph_translate_y: 0
+#color_transform:
+# Space width matching DejaVu Sans.
+width_space: 561
+table_name:
+  copyright: >
+    Reinebow © Xerographer Fonts 2016 CC-BY-4.0
+  family: Reinebow
+  # Subfamily is also called Style or Weight. Often set to: Regular
+  subfamily: Regular
+  unique_id: Reinebow SVGinOT xerographer.com
+  full_name: Reinebow SVGinOT
+  # No spaces in PostScript Names
+  postscript_name: ReinebowSVGinOT
+  #trademark:
+  manufacturer: Xerographer Fonts
+  designer: Max Infeld
+  description: >
+    A SVGinOT color font made by Xerographer Fonts in San Francisco, California.
+    Copyright 2016 Max Infeld and Brad Erickson CC-BY-4.0.
+    https://github.com/xerographer/reinebow-color-font
+  url_vendor: https://xerographer.github.io/
+  url_designer: https://about.me/maxinfeld
+  license: Creative Commons Attribution 4.0 International
+  url_license: http://creativecommons.org/licenses/by/4.0/
